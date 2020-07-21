@@ -20,7 +20,11 @@
 
         <Button Text="Exibir DisplayAlert Modal" Clicked="DisplayAlerta_Clicked" BackgroundColor="Red" TextColor="White" FontSize="11"/>
 
+        <Button Text="Exibir Action Sheet Modal" Clicked="BtnActionSheet_Clicked" BackgroundColor="Black" TextColor="White" FontSize="11"/>
+
         <Label x:Name="lblmsg" TextColor="White" BackgroundColor="Silver" FontSize="15"/>
+        
+        <Label x:Name="lblmsg_2" TextColor="White" BackgroundColor="Silver" FontSize="15"/>
 
     </StackLayout>
 

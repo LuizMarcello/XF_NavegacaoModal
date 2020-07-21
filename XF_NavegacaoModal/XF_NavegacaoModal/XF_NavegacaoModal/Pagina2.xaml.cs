@@ -35,7 +35,7 @@ namespace XF_NavegacaoModal
 
         private async void BtnAlerta_Clicked(object sender, EventArgs e)
         {
-            await DisplayAlert("Alerta","Você foi alertado","OK");
+            await DisplayAlert("Alerta", "Você foi alertado", "OK");
         }
 
         private async void DisplayAlerta_Clicked(object sender, EventArgs e)
@@ -47,7 +47,12 @@ namespace XF_NavegacaoModal
             else
                 lblmsg.Text = "Jogo não iniciará";
         }
+
+        private async void BtnActionSheet_Clicked(object sender, EventArgs e)
+        {
+            var acao = await DisplayActionSheet("Enviar ?", "Cancela", null, "Email", "Twitter", "Facebook");
+            lblmsg_2.Text = acao;
+        }
     }
 }
 
-            
