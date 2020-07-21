@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XF_NavegacaoModal.Pagina3"
+             Title="PAGINA 3">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        
+        <Label Text="Pagina 3" FontSize="30" FontAttributes="Bold" TextColor="Green"/>
+        
+        <Button Text="Retornar" Clicked="Button_Clicked" BackgroundColor="Yellow" TextColor="Black" FontSize="15"/>
+
+        <Button Text="Remover Pagina Modal" Clicked="Btn3_Clicked" BackgroundColor="Blue" TextColor="White" FontSize="11"/>
+
+    </StackLayout>
+
+</ContentPage>

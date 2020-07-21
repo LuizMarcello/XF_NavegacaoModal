@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XF_NavegacaoModal.Pagina2"
+             NavigationPage.HasBackButton="True"
+             Title="PAGINA 2">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+        <Label Text="Pagina 2" FontSize="30" FontAttributes="Bold" TextColor="Navy"/>
+        
+        <Button Text="Avancar" Clicked="Button_Clicked" BackgroundColor="Red" TextColor="Yellow" FontSize="15"/>
+        
+        <Button Text="Exibir Pagina Modal" Clicked="Btn2_Clicked" BackgroundColor="Blue" TextColor="Yellow" FontSize="11"/>
+
+        <Button Text="Exibir Alerta Modal" Clicked="BtnAlerta_Clicked" BackgroundColor="Pink" TextColor="Blue" FontSize="11"/>
+
+        <Button Text="Exibir DisplayAlert Modal" Clicked="DisplayAlerta_Clicked" BackgroundColor="Red" TextColor="White" FontSize="11"/>
+
+        <Label x:Name="lblmsg" TextColor="White" BackgroundColor="Silver" FontSize="15"/>
+
+    </StackLayout>
+
+</ContentPage>
